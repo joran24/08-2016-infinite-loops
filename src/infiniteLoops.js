@@ -9,6 +9,17 @@ var loop = function(collection, callback){
 };
 
 // 1. countVowels
+var countVowels = function(string) {
+
+var results = 0;
+
+loop(string,function(letter){
+return(subject.match(/[aeiou]/gi).length);
+})
+
+var numberofVowels = countVowels ("hey what's up?");
+
+
 
 // 2. stringReversal
 
