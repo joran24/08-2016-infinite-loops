@@ -9,7 +9,7 @@ var loop = function(collection, callback){
 };
 
 // 1. countVowels
- var countVowels = function(string) {
+/* var countVowels = function(string) {
 
  	var results = 0
 
@@ -28,7 +28,7 @@ var numberOfVowels = countVowels('hey whats up');
 console.log(numberOfVowels); // 3
 
 
-
+*/
 
 // 2. stringReversal
 
