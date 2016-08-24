@@ -19,12 +19,34 @@ var countVowels = function(string) {
 
    return count;	
 };
+	//console.log(countVowels("how ya'll doing today?"));
 
 
 // 2. stringReversal
+var stringReversal = function(string){
+	var results =[];
+	loop(string, function(letter) {
+	results.unshift(letter);
+	console.log(results);
+});
+ return results.join('');
+};
+
+console.log(stringReversal("girl")); 
 
 // 3. isPalindrome
 
+var isItPalindrome = function(string){
+	loop(string, function(word) {
+	if (word === word.split('').reverse().join('')){
+		return true;
+	} else {
+		return false;
+	}
+ 
+});
+
+	console.log(isItPalindrome("happy"));
 // 4. largestNumber
 
 // 5. multBy
